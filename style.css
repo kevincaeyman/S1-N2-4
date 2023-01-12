@@ -1,0 +1,58 @@
+*{  
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/header.jpg);
+}
+    .menu{
+        background: #FD8A8A;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        text-align: center;
+        
+    }
+        .logo{
+            color: transparent;
+            width: 75px;
+            height: 75px;
+        }
+        .inicio{
+            background: #F1F7B5;
+            height: 10px;
+            justify-content: center;
+        }
+        .rutas{
+            background: #F1F7B5;
+            height: 10px;
+        }
+        .hoteles{
+            background: #F1F7B5;
+            height: 10px;
+        }
+        .vuelos{
+            background: #F1F7B5;
+            height: 10px;
+        }
+        .contacto{
+            background: #F1F7B5;
+            height: 10px;
+        }
+        .facebook{
+            background: #F1F7B5;
+            height: 10px;
+        }
+        .twitter{
+            background: #F1F7B5;
+            height: 10px;
+        }
+
+    .disfruta{
+        background-color: grey;
+    }
+        .text{
+            color: orange;
+        }
