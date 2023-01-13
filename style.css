@@ -1,58 +1,80 @@
-*{  
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.page {
+  max-width: 1200px;
+}
+    .container {
+    background-color: transparent;
+    display: flex;
+    flex-flow: column nowrap;
+    }
 
-header{
-    background-image: url(images/header.jpg);
-}
-    .menu{
-        background: #FD8A8A;
+    .navbar {
+    background: transparent;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    height: fit-content;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    color: #708090;
+    }
+        .logo {
+        color: transparent;
+        width: 50px;
+        height: 50px;
+        }
+        .inicio {
         display: flex;
         flex-flow: row nowrap;
-        align-items: center;
-        text-align: center;
-        
-    }
-        .logo{
-            color: transparent;
-            width: 75px;
-            height: 75px;
         }
-        .inicio{
-            background: #F1F7B5;
-            height: 10px;
-            justify-content: center;
+        .rutas {
+        display: flex;
+        flex-flow: row nowrap;
         }
-        .rutas{
-            background: #F1F7B5;
-            height: 10px;
+        .hoteles {
+        display: flex;
+        flex-flow: row nowrap;
         }
-        .hoteles{
-            background: #F1F7B5;
-            height: 10px;
+        .vuelos {
+        display: flex;
+        flex-flow: row nowrap;
         }
-        .vuelos{
-            background: #F1F7B5;
-            height: 10px;
+        .contacto {
+        display: flex;
+        flex-flow: row nowrap;
         }
-        .contacto{
-            background: #F1F7B5;
-            height: 10px;
-        }
-        .facebook{
-            background: #F1F7B5;
-            height: 10px;
-        }
-        .twitter{
-            background: #F1F7B5;
-            height: 10px;
+        .social {
+        display: flex;
+        flex-flow: row nowrap;
         }
 
-    .disfruta{
-        background-color: grey;
+    .main {
+    background: transparent;
+    display: flex;
+    justify-content: center;
     }
-        .text{
-            color: orange;
+        .text {
+        display: flex;
+        background-color: black;
+        opacity: 50%;
+        background-size: auto;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: orange;
+        font-size: x-large;
         }
+.background-image {
+  background-image: url(./images/header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
